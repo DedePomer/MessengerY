@@ -830,6 +830,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Backend.Auth.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Backend.Auth.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Auth.Common.dll": {}
+        }
       }
     }
   },
@@ -2138,10 +2148,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Backend.Auth.Common/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Auth.Common/Backend.Auth.Common.csproj",
+      "msbuildProject": "../Backend.Auth.Common/Backend.Auth.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Backend.Auth.Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.21",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.21",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.21",
@@ -2179,7 +2195,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Works\\C#\\MessengerY\\src\\Backend.Auth.Common\\Backend.Auth.Common.csproj": {
+              "projectPath": "D:\\Works\\C#\\MessengerY\\src\\Backend.Auth.Common\\Backend.Auth.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

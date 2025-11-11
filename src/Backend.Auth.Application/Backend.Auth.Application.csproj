@@ -21,4 +21,8 @@
       <Folder Include="Infrastructure\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Backend.Auth.Common\Backend.Auth.Common.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -929,6 +929,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Backend.Auth.Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.21",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.21",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
@@ -938,6 +939,16 @@
         },
         "runtime": {
           "bin/placeholder/Backend.Auth.Application.dll": {}
+        }
+      },
+      "Backend.Auth.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Backend.Auth.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Auth.Common.dll": {}
         }
       }
     }
@@ -2589,6 +2600,11 @@
       "type": "project",
       "path": "../Backend.Auth.Application/Backend.Auth.Application.csproj",
       "msbuildProject": "../Backend.Auth.Application/Backend.Auth.Application.csproj"
+    },
+    "Backend.Auth.Common/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Auth.Common/Backend.Auth.Common.csproj",
+      "msbuildProject": "../Backend.Auth.Common/Backend.Auth.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
