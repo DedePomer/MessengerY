@@ -11,6 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDataBase(configuration);
+builder.Services.AddData(configuration);
+builder.Services.AddInfrastructure(configuration);
 
 
 var app = builder.Build();
@@ -28,11 +30,10 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseHsts();
 }
-
-
 app.UseHttpsRedirection();
 
 app.MapSignupEndpoint();
+app.MapLoginEndpoint();
 
 
 app.Run();

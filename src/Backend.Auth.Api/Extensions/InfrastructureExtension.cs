@@ -1,6 +1,11 @@
-﻿namespace Backend.Auth.Api.Extensions;
+﻿using Backend.Auth.Application.Infrastructure.Services;
 
-internal class InfrastructureExtension
+namespace Backend.Auth.Api.Extensions;
+
+internal static class InfrastructureExtension
 {
-    
+    internal static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    {
+        services.AddScoped<AccountService>();
+    }
 }
