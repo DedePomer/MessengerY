@@ -1,6 +1,9 @@
+using Backend.Auth.Api.DTOs.Validators;
 using Backend.Auth.Api.Endpoints;
 using Backend.Auth.Api.Extensions;
 using Backend.Auth.Api.Middlewares;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +26,8 @@ builder.Services.AddDataBase(configuration);
 builder.Services.AddData(configuration);
 builder.Services.AddInfrastructure(configuration);
 
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<UserDtoValidator>();
 
 var app = builder.Build();
 
