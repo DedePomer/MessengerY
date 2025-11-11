@@ -2,7 +2,7 @@
 
 public interface IAccountsRepository
 {
-    Task<bool> UserCanRegistrate(string username);
-    Task Registrate (string username, string password);
-    Task<bool> Authenticate (string username, string password);
+    Task<bool> UserExistAsync(string username);
+    Task RegistrateAsync (string username, string password);
+    Task<bool> AuthenticateAsync (string username, string password);
 }

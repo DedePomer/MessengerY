@@ -7,16 +7,16 @@ namespace Backend.Auth.Application.Data.Repositories;
 
 public class AccountsRepository(UsersDbContext  context) : IAccountsRepository
 {
-    public async Task<bool> UserCanRegistrate(string username)
+    public async Task<bool> UserExistAsync(string username)
     {
         var query = context.Accounts.AsNoTracking();
         
-        var userCan = await query.AnyAsync(x => x.Username != username);
+        var userExist = await query.AnyAsync(x => x.Username != username);
         
-        return userCan;
+        return userExist;
     }
 
-    public async Task Registrate(string username, string password)
+    public async Task RegistrateAsync(string username, string password)
     {
         var query = context.Accounts;
         
@@ -32,7 +32,7 @@ public class AccountsRepository(UsersDbContext  context) : IAccountsRepository
         });
     }
 
-    public async Task<bool> Authenticate(string username, string password)
+    public async Task<bool> AuthenticateAsync(string username, string password)
     {
         var query = context.Accounts;
         

@@ -1,5 +1,5 @@
 using Backend.Auth.Api.Endpoints;
-using Backend.Auth.Api.Extinsions;
+using Backend.Auth.Api.Extensions;
 using Backend.Auth.Api.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
