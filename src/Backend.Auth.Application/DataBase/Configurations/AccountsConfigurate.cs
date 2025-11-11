@@ -10,5 +10,9 @@ public class AccountsConfigurate:IEntityTypeConfiguration<AccountsEntity>
     {
         builder
             .HasKey(x => x.AccountsId);
+        
+        builder
+            .HasIndex(x => x.Username)
+            .IsUnique();
     }
 }
