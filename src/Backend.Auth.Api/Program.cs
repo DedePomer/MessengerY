@@ -1,6 +1,7 @@
 using Backend.Auth.Api.Endpoints;
 using Backend.Auth.Api.Extensions;
 using Backend.Auth.Api.Middlewares;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -9,6 +10,14 @@ var configuration = builder.Configuration;
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Logging.ClearProviders();
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(configuration)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 builder.Services.AddDataBase(configuration);
 builder.Services.AddData(configuration);
