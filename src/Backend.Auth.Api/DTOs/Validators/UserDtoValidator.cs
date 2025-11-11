@@ -8,11 +8,11 @@ public class UserDtoValidator:AbstractValidator<UserDto>
     {
         RuleFor(u => u.Username)
             .NotEmpty().WithMessage("Username обязателен")
-            .Length(50).WithMessage("Username не может быть длинее 50 символов");
+            .MaximumLength(50).WithMessage("Username не может быть длинее 50 символов");
 
         RuleFor(u => u.Password)
             .NotEmpty()
-            .MinimumLength(8).WithMessage("Пароль минимум 8 символов")
-            .MaximumLength(32).WithMessage("Пароль максимум 32 символа");
+            .Length(8,32).WithMessage("Пароль минимум 8 символов, максимум 32");
     }
+    
 }

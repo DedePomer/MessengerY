@@ -9,6 +9,6 @@ public class AccountsEntity
     [MaxLength(50)]
     public required string Username { get; init; }
     public required byte[] PasswordHash { get; init; }
-    [MaxLength(10)]
+    [MaxLength(30)]
     public required string PasswordSalt { get; init; }
 }

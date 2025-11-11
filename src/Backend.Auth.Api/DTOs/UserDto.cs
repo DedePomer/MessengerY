@@ -1,4 +1,6 @@
-﻿namespace Backend.Auth.Api.DTOs;
+﻿
+
+namespace Backend.Auth.Api.DTOs;
 
 public class UserDto
 {

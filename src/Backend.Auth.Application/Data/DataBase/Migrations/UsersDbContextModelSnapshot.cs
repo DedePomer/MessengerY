@@ -34,8 +34,8 @@ namespace Backend.Auth.Application.Data.DataBase.Migrations
 
                     b.Property<string>("PasswordSalt")
                         .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("character varying(10)");
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
 
                     b.Property<string>("Username")
                         .IsRequired()

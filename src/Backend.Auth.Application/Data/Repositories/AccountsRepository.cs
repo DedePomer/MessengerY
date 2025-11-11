@@ -30,6 +30,8 @@ public class AccountsRepository(UsersDbContext  context) : IAccountsRepository
             PasswordHash = hashedPassword,
             PasswordSalt = salt,
         });
+        
+        await context.SaveChangesAsync();
     }
 
     public async Task<bool> AuthenticateAsync(string username, string password)

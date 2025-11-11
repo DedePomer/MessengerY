@@ -9,7 +9,7 @@ internal static class SignupEndpoint
 {
     internal static void MapSignupEndpoint(this IEndpointRouteBuilder app)
     {
-        app.MapPost("/sigup", Signup);
+        app.MapPost("/signup", Signup);
     }
 
     private static async Task<IResult> Signup(AccountService accountService, IValidator<UserDto> validator,[FromBody] UserDto user)
