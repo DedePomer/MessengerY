@@ -1,4 +1,5 @@
 ﻿using Backend.Auth.Api.DTOs;
+using Backend.Auth.Api.DTOs.Validators;
 using Backend.Auth.Application.Infrastructure.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
@@ -9,17 +10,13 @@ internal static class LoginEndpoint
 {
     internal static void MapLoginEndpoint(this IEndpointRouteBuilder app)
     {
-        app.MapPost("/login", Login);
+        app
+            .MapPost("/login", Login)
+            .AddEndpointFilter<DtoValidatorFilter<UserDto>>();
     }
     
-    private static async Task<IResult> Login(AccountService accountService,IValidator<UserDto> validator,[FromBody] UserDto user)
+    private static async Task<IResult> Login(AccountService accountService,[FromBody] UserDto user)
     {
-        var validatorResult = await validator.ValidateAsync(user);
-        if (!validatorResult.IsValid)
-        {
-            return Results.BadRequest(validatorResult.Errors);
-        }
-
         var isAuth = await accountService.AuthenticateAsync(user.Username, user.Password);
         if  (isAuth)
         {
