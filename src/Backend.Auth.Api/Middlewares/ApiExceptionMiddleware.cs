@@ -1,8 +1,8 @@
 ﻿namespace Backend.Auth.Api.Middlewares;
 
-public class ApiExceptionMiddleware(RequestDelegate next, ILogger<ApiExceptionMiddleware> logger)
+internal class ApiExceptionMiddleware(RequestDelegate next, ILogger<ApiExceptionMiddleware> logger)
 {
-    public async Task InvokeAsync(HttpContext context)
+    internal async Task InvokeAsync(HttpContext context)
     {
         try
         {

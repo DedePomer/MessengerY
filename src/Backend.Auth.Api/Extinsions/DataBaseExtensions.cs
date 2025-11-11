@@ -1,4 +1,4 @@
-﻿using Backend.Auth.Application.DataBase;
+﻿using Backend.Auth.Application.Data.DataBase;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Auth.Api.Extinsions;

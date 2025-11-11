@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Backend.Auth.Application.Entity;
+namespace Backend.Auth.Application.Data.Entity;
 
 public class AccountsEntity
 {

@@ -1,8 +1,8 @@
-﻿using Backend.Auth.Application.Entity;
+﻿using Backend.Auth.Application.Data.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Backend.Auth.Application.DataBase.Configurations;
+namespace Backend.Auth.Application.Data.DataBase.Configurations;
 
 public class AccountsConfigurate:IEntityTypeConfiguration<AccountsEntity>
 {

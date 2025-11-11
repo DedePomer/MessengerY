@@ -1,8 +1,8 @@
-﻿using Backend.Auth.Application.DataBase.Configurations;
-using Backend.Auth.Application.Entity;
+﻿using Backend.Auth.Application.Data.DataBase.Configurations;
+using Backend.Auth.Application.Data.Entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace Backend.Auth.Application.DataBase;
+namespace Backend.Auth.Application.Data.DataBase;
 
 public class UsersDbContext(DbContextOptions<UsersDbContext> options): DbContext(options)
 {
