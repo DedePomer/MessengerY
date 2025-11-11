@@ -7,15 +7,13 @@ public class AccountService(IAccountsRepository accountsRepository, ILogger<Acco
 {
     public async Task<bool> RegistrateAsync(string username, string password)
     {
-        var canReg = await accountsRepository.UserExistAsync(username);
+        var isExist = await accountsRepository.UserExistAsync(username);
 
-        if (!canReg)
+        if (isExist)
         {
             logger.LogDebug("User {username} is already registered", username);
             return false;
         }
-
-        
         
         await accountsRepository.RegistrateAsync(username, password);
         return true;

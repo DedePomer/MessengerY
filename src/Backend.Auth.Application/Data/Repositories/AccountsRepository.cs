@@ -11,7 +11,7 @@ public class AccountsRepository(UsersDbContext  context) : IAccountsRepository
     {
         var query = context.Accounts.AsNoTracking();
         
-        var userExist = await query.AnyAsync(x => x.Username != username);
+        var userExist = await query.AnyAsync(x => x.Username == username);
         
         return userExist;
     }
@@ -36,7 +36,9 @@ public class AccountsRepository(UsersDbContext  context) : IAccountsRepository
     {
         var query = context.Accounts;
         
-        var account = await query.FirstAsync(a=>a.Username == username);
+        var account = await query.FirstOrDefaultAsync(a=>a.Username == username);
+        if (account == null) return false;
+        
         var salt = account.PasswordSalt;
         password = salt + password;
         var hashedPassword = HashHelper.GetHash(password);

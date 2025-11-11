@@ -116,3 +116,15 @@ D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\zh-Hans\Microsoft.C
 D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Backend.Auth.Common.dll
 D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Backend.Auth.Common.pdb
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\FluentValidation.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Works\C#\MessengerY\src\Backend.Auth.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll

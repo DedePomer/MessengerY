@@ -14,6 +14,9 @@ var configuration = builder.Configuration;
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<UserDtoValidator>();
+
 builder.Logging.ClearProviders();
 
 Log.Logger = new LoggerConfiguration()
@@ -26,8 +29,7 @@ builder.Services.AddDataBase(configuration);
 builder.Services.AddData(configuration);
 builder.Services.AddInfrastructure(configuration);
 
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddValidatorsFromAssemblyContaining<UserDtoValidator>();
+
 
 var app = builder.Build();
 
