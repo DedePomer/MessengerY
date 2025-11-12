@@ -1,6 +1,7 @@
 ﻿using Backend.Auth.Api.DTOs;
 using Backend.Auth.Api.DTOs.Validators;
 using Backend.Auth.Application.Infrastructure.Services;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Auth.Api.Endpoints;
@@ -10,8 +11,8 @@ internal static class SignupEndpoint
     internal static void MapSignupEndpoint(this IEndpointRouteBuilder app)
     {
         app
-            .MapPost("/api/signup", Signup)
-            .AddEndpointFilter<DtoValidatorFilter<UserDto>>();
+            .MapPost("/signup", Signup)
+            .AddEndpointFilter<DtoValidatorFilter<UserDto>>();;
     }
 
     private static async Task<IResult> Signup(AccountService accountService,[FromBody] UserDto user)

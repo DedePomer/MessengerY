@@ -11,7 +11,7 @@ internal static class LoginEndpoint
     internal static void MapLoginEndpoint(this IEndpointRouteBuilder app)
     {
         app
-            .MapPost("/api/login", Login)
+            .MapPost("/login", Login)
             .AddEndpointFilter<DtoValidatorFilter<UserDto>>();
     }
     
