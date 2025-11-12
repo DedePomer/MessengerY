@@ -1,0 +1,6 @@
+@Test._GatewayCheker_HostAddress = http://localhost:5017
+
+GET {{Test._GatewayCheker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

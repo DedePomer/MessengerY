@@ -61,8 +61,12 @@ app.Map("/{**catchall}",
             connection.Destination + connection.PathPrefix);
 
         var response = await client.SendAsync(request);
-        
-        return Results.Ok();
+
+        if (response.IsSuccessStatusCode)
+        {
+            return Results.Ok();
+        }
+        return Results.BadRequest(); 
     });
 
 app.Run();
