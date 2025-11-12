@@ -10,7 +10,7 @@ public class ApiExceptionMiddleware(RequestDelegate next, ILogger<ApiExceptionMi
         }
         catch (Exception ex)
         {
-            logger.LogError(ex, "Auth API server error");
+            logger.LogError(ex, "Gateway error");
             
             context.Response.StatusCode = 500;
             await context.Response.WriteAsJsonAsync("Server error");

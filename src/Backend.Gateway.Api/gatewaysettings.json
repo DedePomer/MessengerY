@@ -1,0 +1,18 @@
+﻿{
+  "GatewaySettings": {
+      "Connections": [
+      {
+        "Name": "AuthApiLogin",
+        "PathPrefix": "/api/login",
+        "Destination": "https://localhost:7066",
+        "AllowedMethods": ["POST"]
+      },
+      {
+        "Name": "AuthApiSignup",
+        "PathPrefix": "/api/signup",
+        "Destination": "https://localhost:7066",
+        "AllowedMethods": ["POST"]
+      }]
+  }
+    
+}
