@@ -1,6 +1,6 @@
 using Backend.Gateway.Api.Extensions;
 using Backend.Gateway.Api.Middlewares;
-using Backend.Gateway.Api.Model;
+using Backend.Gateway.Application.Model;
 using Microsoft.Extensions.Options;
 using Serilog;
 
@@ -45,8 +45,10 @@ app.UseHttpsRedirection();
 app.Map("/{**catchall}",
     async (IOptions<GatewaySettings> options,HttpContext context) =>
     {
-        var routes = options.Value;
-        return routes;
+        var gatewaySettings = options.Value;
+        
+        
+        return gatewaySettings;
     });
 
 app.Run();

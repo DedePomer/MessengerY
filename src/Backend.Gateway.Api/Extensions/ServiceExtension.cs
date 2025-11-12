@@ -1,4 +1,4 @@
-﻿using Backend.Gateway.Api.Model;
+﻿using Backend.Gateway.Application.Model;
 
 namespace Backend.Gateway.Api.Extensions;
 

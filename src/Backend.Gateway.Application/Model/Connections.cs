@@ -1,4 +1,4 @@
-﻿namespace Backend.Gateway.Api.Model;
+﻿namespace Backend.Gateway.Application.Model;
 
 public record Connections(
     string Name,

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Backend.Gateway.Api")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Backend.Gateway.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef1591298ca5cd3c1c2be2d78da64ff94db5d008")]
-[assembly: System.Reflection.AssemblyProductAttribute("Backend.Gateway.Api")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Backend.Gateway.Api")]
+[assembly: System.Reflection.AssemblyProductAttribute("Backend.Gateway.Application")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Backend.Gateway.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
