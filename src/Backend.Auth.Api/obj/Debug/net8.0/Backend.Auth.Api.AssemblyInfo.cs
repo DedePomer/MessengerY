@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backend.Auth.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c49daa164b38d70fa443dfb42537797691eb06d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a95005cd70e8fbab31d61f1dbd020cd0141e2e15")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backend.Auth.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backend.Auth.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\bin\Debug\net8.0\Backend.Gateway.Application.deps.json
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\bin\Debug\net8.0\Backend.Gateway.Application.dll
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\bin\Debug\net8.0\Backend.Gateway.Application.pdb
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\Backend.Gateway.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\Backend.Gateway.Application.AssemblyInfoInputs.cache
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\Backend.Gateway.Application.AssemblyInfo.cs
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\Backend.Gateway.Application.csproj.CoreCompileInputs.cache
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\Backend.Gateway.Application.sourcelink.json
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\Backend.Gateway.Application.dll
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\refint\Backend.Gateway.Application.dll
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\Backend.Gateway.Application.pdb
+D:\Works\C#\MessengerY\src\Backend.Gateway.Application\obj\Debug\net8.0\ref\Backend.Gateway.Application.dll
