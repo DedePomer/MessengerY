@@ -32,16 +32,19 @@ app.MapPost("/test/gch",
 
         string jsonUser = JsonSerializer.Serialize(user);
 
-        var request =  new HttpRequestMessage(new HttpMethod(gatewayMethod), gatewayPath+gatewayPref);
+        var request = new HttpRequestMessage(new HttpMethod(gatewayMethod), gatewayPath + gatewayPref);
         request.Content = new StringContent(jsonUser, Encoding.UTF8, "application/json");
-        
+
         var response = await client.SendAsync(request);
+
+        string contentType = response.Content.Headers.ContentType?.ToString() ?? "application/octet-stream";
+        string responseString  = await response.Content.ReadAsStringAsync();
+        int responseCode = (int)response.StatusCode;
+
+        var result = Results.Content(responseString, contentType, Encoding.UTF8,responseCode);
         
-        if (response.IsSuccessStatusCode)
-        {
-            return Results.Ok();
-        }
-        return Results.BadRequest(); 
+
+        return result;
     });
 
 app.Run();

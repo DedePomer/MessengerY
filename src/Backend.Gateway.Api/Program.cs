@@ -71,8 +71,9 @@ app.Map("/{**catchall}",
         string contentType = response.Content.Headers.ContentType?.ToString() ?? "application/octet-stream";
         string responseString  = await response.Content.ReadAsStringAsync();
         int responseCode = (int)response.StatusCode;
-        
-        var result = Results.Content(responseString, contentType ,null , responseCode);
+
+        var result = Results.Content(responseString, contentType, Encoding.UTF8,responseCode);
+
         return result;
     });
 
