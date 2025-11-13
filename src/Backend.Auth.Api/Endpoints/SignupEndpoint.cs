@@ -22,6 +22,6 @@ internal static class SignupEndpoint
         {
             return Results.BadRequest("Пользователь с такими данными существует");
         }
-        return Results.Ok();
+        return Results.Created();
     }
 }

@@ -67,12 +67,12 @@ app.Map("/{**catchall}",
         request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
         var response = await client.SendAsync(request);
-
-        var stream = await response.Content.ReadAsStreamAsync();
-        string contentType = response.Content.Headers.ContentType?.ToString() ?? "application/octet-stream";
         
-        var result = Results.Stream(stream, contentType);
-
+        string contentType = response.Content.Headers.ContentType?.ToString() ?? "application/octet-stream";
+        string responseString  = await response.Content.ReadAsStringAsync();
+        int responseCode = (int)response.StatusCode;
+        
+        var result = Results.Content(responseString, contentType ,null , responseCode);
         return result;
     });
 

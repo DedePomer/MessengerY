@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Test.GatewayCheker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9118104fd705003b3fc233b71d3fa1edb60a4968")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add9d5bffb35eabb3bc809c80990143fe2a10b03")]
 [assembly: System.Reflection.AssemblyProductAttribute("Test.GatewayCheker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Test.GatewayCheker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
