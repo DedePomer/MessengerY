@@ -1,7 +1,10 @@
+using System.Net.Http.Headers;
+using System.Text;
 using Backend.Gateway.Api.Extensions;
 using Backend.Gateway.Api.Middlewares;
 using Backend.Gateway.Application.Model;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using Serilog;
 using ILogger = Serilog.ILogger;
 
@@ -56,17 +59,21 @@ app.Map("/{**catchall}",
         {
             return Results.BadRequest();
         }
-
+        
         var request = new HttpRequestMessage(new HttpMethod(method),
             connection.Destination + connection.PathPrefix);
+        
+        request.Content = new StreamContent(httpContext.Request.Body);
+        request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
         var response = await client.SendAsync(request);
 
-        if (response.IsSuccessStatusCode)
-        {
-            return Results.Ok();
-        }
-        return Results.BadRequest(); 
+        var stream = await response.Content.ReadAsStreamAsync();
+        string contentType = response.Content.Headers.ContentType?.ToString() ?? "application/octet-stream";
+        
+        var result = Results.Stream(stream, contentType);
+
+        return result;
     });
 
 app.Run();
