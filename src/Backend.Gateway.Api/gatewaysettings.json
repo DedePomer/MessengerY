@@ -1,6 +1,6 @@
 ﻿{
-  "Endpoints": {
-      "Connections": [
+  "Settings": {
+      "Endpoints": [
       {
         "Name": "AuthApiLogin",
         "PathPrefix": "/api/login",
