@@ -1,5 +1,5 @@
 ﻿@inherits LayoutComponentBase
-@inject IJSRuntime JS
+@inject IJSRuntime Js
 
 
 
@@ -20,7 +20,7 @@
     {
         if (firstRender)
         {
-            await JS.InvokeVoidAsync("initializeFinisherHeader");
+            await Js.InvokeVoidAsync("initializeFinisherHeader");
         }
     }
 }

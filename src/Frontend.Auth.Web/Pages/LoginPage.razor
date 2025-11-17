@@ -2,18 +2,22 @@
 
 <h2>Вход</h2>
 
-<input type="text" @bind="loginInput" placeholder="Логин" />
-<input type="password" @bind="passwordInput" placeholder="Пароль" />
+<input type="text" @bind="_loginInput" placeholder="Логин" />
+<input type="password" @bind="_passwordInput" placeholder="Пароль" />
 
-<button>Войти</button>
+<button @onclick="SigninCommandAsync">Войти</button>
 
 <p class="switch-page-text">
     Нет аккаунта? 
     <a href="/register" class="switch-page-link">Зарегистрироваться</a>
 </p>
 @code {
-    private string loginInput = String.Empty;
-    private string passwordInput = String.Empty;
+    private string _loginInput = String.Empty;
+    private string _passwordInput = String.Empty;
 
     
+    private async Task SigninCommandAsync()
+    {
+        
+    }
 }
