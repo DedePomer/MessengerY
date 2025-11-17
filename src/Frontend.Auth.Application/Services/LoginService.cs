@@ -1,9 +1,10 @@
 ﻿using Frontend.Auth.Application.Model.DataType;
 using Frontend.Auth.Application.Model.DTOs;
+using Microsoft.Extensions.Options;
 
 namespace Frontend.Auth.Application.Services;
 
-public class LoginService(HttpClient client)
+public class LoginService(HttpClient client, IOptions<RoutesInformation>  options)
 {
     
     

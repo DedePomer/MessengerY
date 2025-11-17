@@ -1,7 +1,7 @@
 ﻿namespace Frontend.Auth.Application.Model.DataType;
 
-internal class RoutesInformation
+public class RoutesInformation
 {
-    internal required string GatewayHost { get; init; }
-    internal required List<Route> Routes { get; init; }
+    public required string GatewayHost { get; init; }
+    public required List<Route> Routes { get; init; }
 }

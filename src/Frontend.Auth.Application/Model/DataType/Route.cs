@@ -1,8 +1,8 @@
 ﻿namespace Frontend.Auth.Application.Model.DataType;
 
-internal class Route
+public class Route
 {
-    internal required string Name { get; init; }
-    internal required string PathPrefix { get; init; }
-    internal required string HttpMethod { get; init; }
+    public required string Name { get; init; }
+    public required string PathPrefix { get; init; }
+    public required string HttpMethod { get; init; }
 }

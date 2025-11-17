@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "S26qW9FufI8=",
+  "dgSpecHash": "HyB1KO+qDm8=",
   "success": true,
   "projectFilePath": "D:\\Works\\C#\\MessengerY\\src\\Frontend.Auth.Application\\Frontend.Auth.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\t343s\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\t343s\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\t343s\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
