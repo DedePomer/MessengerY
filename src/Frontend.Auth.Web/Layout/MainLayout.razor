@@ -8,9 +8,7 @@
         <div class="header finisher-header finisher-container">
             <div>
                 <div class="center-box">
-                    <h2>Вход</h2>
                     @Body
-                    <a href="#" class="register-link">Нет аккаунта? Регистрация</a>
                 </div>
             </div>
         </div>
@@ -18,7 +16,6 @@
 </div>
 
 @code {
-    
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)

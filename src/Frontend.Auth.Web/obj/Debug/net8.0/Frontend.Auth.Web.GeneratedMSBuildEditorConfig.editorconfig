@@ -28,8 +28,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Pages/LoginPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
+[D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Pages/RiderectPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmlkZXJlY3RQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/_Imports.razor]
@@ -39,3 +39,7 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-obmp5tgc3v
+
+[D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-v86bkxu9xr

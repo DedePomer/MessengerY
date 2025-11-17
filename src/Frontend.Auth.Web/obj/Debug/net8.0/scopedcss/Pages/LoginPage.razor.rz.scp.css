@@ -1,0 +1,73 @@
+h2[b-v86bkxu9xr]{
+    color: lightgray;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input[type="text"][b-v86bkxu9xr],
+input[type="password"][b-v86bkxu9xr]{
+    padding: 10px 15px;          
+    border-radius: 12px;         
+    border: 1px solid #ccc;      
+    font-size: 16px;             
+    outline: none;               
+    width: 100%;                 
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s; 
+    background: lightgray;
+}
+
+input[type="text"]:focus[b-v86bkxu9xr],
+input[type="password"]:focus[b-v86bkxu9xr] {
+    border-color: #242531;       
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+ 
+button[b-v86bkxu9xr] {
+    padding: 10px 20px;
+    border-radius: 12px;         
+    border: none;                
+    background-color: #242531;   
+    color: lightgray;                
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover[b-v86bkxu9xr] {
+    background-color: #3f00ff;
+    transform: translateY(-2px);
+}
+
+
+button:active[b-v86bkxu9xr] {
+    transform: translateY(0);
+}
+
+
+.switch-page-text[b-v86bkxu9xr] {
+    font-size: 16px;
+    color: lightgray;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.switch-page-link[b-v86bkxu9xr] {
+    color: #007bff;                 
+    text-decoration: none;          
+    font-weight: 500;
+    transition: color 0.3s, transform 0.2s;
+}
+
+
+.switch-page-link:hover[b-v86bkxu9xr] {
+    color: #0056b3;                 
+    text-decoration: underline;      
+    transform: translateY(-1px);    
+}

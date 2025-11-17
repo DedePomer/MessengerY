@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Frontend.Auth.Web",
   "resources": {
-    "hash": "sha256-scM/piKMl+iyCnZ4VN4RYYHU2sFp5kQgw1IzXSpfXEc=",
+    "hash": "sha256-9+ThTAyy0w7nq2h/dHi6quglFs7wb1hvKo6nYqeGjDE=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-9Fzd5We95Rp03dEKIAbYjPDR3eWyLbmjMlYStvxyiok="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-MZJ1V6miMP318lQowft4FPkcszcibPLDTwKj235fSAc=",
       "netstandard.wasm": "sha256-RYAURbR1AHkUZYjKgu+B/i3N3VP4abnAaH+vxwJ8d3c=",
       "System.Private.CoreLib.wasm": "sha256-4YzdATaWUDkUkRpe+hl+T61TaCjRVapVUtqTIai3Gd8=",
-      "Frontend.Auth.Web.wasm": "sha256-EN9YfWffiAH+L5bweBDXU1UTWTaPxZareeGpCQt+WtY="
+      "Frontend.Auth.Web.wasm": "sha256-y4XlMD62ire4+RNlWa3ZHEkwk2tU6BlUY5eMQmj3Etc="
     },
     "pdb": {
-      "Frontend.Auth.Web.pdb": "sha256-2tJNIZ+ZQwVu4u9g0nyS40ETc5wIfSxs2EN6r9gSehA="
+      "Frontend.Auth.Web.pdb": "sha256-/Wuf9XAMoDoDfdsdKodlvp9QbOJS5Q6eJgW2xZP+5qo="
     }
   },
   "cacheBootResources": true,

@@ -1032,6 +1032,7 @@ D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\Frontend.Auth.Web.
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\refint\Frontend.Auth.Web.dll
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\Frontend.Auth.Web.pdb
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\ref\Frontend.Auth.Web.dll
-D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\6y3a9gn2dr-wkg4ks3d7j.gz
-D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\na13mh7psl-i2szasmf1m.gz
-D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\dtkf5s5r1e-895dn6xu6b.gz
+D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\scopedcss\Pages\LoginPage.razor.rz.scp.css
+D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\6y3a9gn2dr-11pecizznp.gz
+D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\na13mh7psl-56qma1te4l.gz
+D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\dtkf5s5r1e-aty9l25yx2.gz
