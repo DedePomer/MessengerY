@@ -1,0 +1,15 @@
+﻿{
+  "GatewayHost": "https://localhost:7192",
+  "Routes": [
+    {
+      "Name": "Login",
+      "PathPrefix": "/api/login",
+      "HttpMethod": "POST"
+    },
+    {
+      "Name": "Registration",
+      "PathPrefix": "/api/signup",
+      "HttpMethod": "POST"
+    }
+  ]
+}

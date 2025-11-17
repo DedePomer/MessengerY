@@ -11,7 +11,7 @@ using ILogger = Serilog.ILogger;
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
-configuration.AddJsonFile("gatewaysettings.json", optional: false, reloadOnChange: true);
+configuration.AddJsonFile("endpoints.json", optional: false, reloadOnChange: true);
 configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
     
 // Add services to the container.
@@ -43,16 +43,16 @@ app.UseHttpsRedirection();
 
 
 app.Map("/{**catchall}",
-    async (IOptions<GatewaySettings> options, HttpContext httpContext, IHttpClientFactory clientFactory) =>
+    async (IOptions<Endpoints> options, HttpContext httpContext, IHttpClientFactory clientFactory) =>
     {
-        GatewaySettings gatewaySettings = options.Value;
+        Endpoints endpoints = options.Value;
 
         var client = clientFactory.CreateClient();
         var method = httpContext.Request.Method;      
         var pathPrefix = httpContext.Request.Path.Value;
 
         var connection =
-            gatewaySettings.Connections.FirstOrDefault(c =>
+            endpoints.Connections.FirstOrDefault(c =>
                 c.PathPrefix == pathPrefix && c.AllowedMethods.Contains(method));
 
         if (connection == null)

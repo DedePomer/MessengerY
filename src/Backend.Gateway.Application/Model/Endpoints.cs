@@ -1,6 +1,6 @@
 ﻿namespace Backend.Gateway.Application.Model;
 
-public class GatewaySettings
+public class Endpoints
 {
     public required List<Connections> Connections { get; init; }
 }

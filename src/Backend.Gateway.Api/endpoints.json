@@ -1,5 +1,5 @@
 ﻿{
-  "GatewaySettings": {
+  "Endpoints": {
       "Connections": [
       {
         "Name": "AuthApiLogin",

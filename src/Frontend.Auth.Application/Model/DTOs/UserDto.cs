@@ -1,4 +1,4 @@
-﻿namespace Frontend.Auth.Application.DTOs;
+﻿namespace Frontend.Auth.Application.Model.DTOs;
 
 public class UserDto
 {
