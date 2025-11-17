@@ -1,22 +1,55 @@
-/* Контейнер для анимации, который будет занимать весь экран */
+
 .finisher-container[b-obmp5tgc3v] {
-    position: fixed; /* фиксируем на экране */
-    top: 0;
-    left: 0;
+    position: fixed;
     width: 100%;
-    height: 100vh; /* Растягиваем на весь экран */
-    z-index: -1; /* Отправляем на задний план */
-    pointer-events: none; /* Отключаем взаимодействие с этим контейнером */
+    height: 100vh; 
+    z-index: -1; 
+    pointer-events: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Стили для основного контента, который будет поверх анимации */
-.main-content[b-obmp5tgc3v] {
+.blur-container[b-obmp5tgc3v]{
+    width: 100%;
+    height: 100%;
+    
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.01);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box[b-obmp5tgc3v] {
     position: relative;
-    z-index: 1; /* Это обеспечит, что основной контент будет поверх анимации */
-    padding: 20px;
+    z-index: 1;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);          
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
 }
 
-
+.center-box input[b-obmp5tgc3v] {
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
 
 .page[b-obmp5tgc3v] {
     position: relative;
@@ -27,6 +60,24 @@
 main[b-obmp5tgc3v] {
     flex: 1;
 }
+
+h2[b-obmp5tgc3v]{
+    color: white;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", Arial, sans-serif; 
+    
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
 
 .sidebar[b-obmp5tgc3v] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);

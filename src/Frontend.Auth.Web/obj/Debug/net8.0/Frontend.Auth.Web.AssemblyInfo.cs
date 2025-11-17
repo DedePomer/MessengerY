@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Frontend.Auth.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+715581bfddee3e013e2a252ec159c88f1e83ab73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5aa9846dc642ebc7b884a178257b0e7d760e3e93")]
 [assembly: System.Reflection.AssemblyProductAttribute("Frontend.Auth.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Frontend.Auth.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -817,7 +817,6 @@ D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\rjimswa.dswa.cache
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
-D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\scopedcss\bundle\Frontend.Auth.Web.styles.css
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\scopedcss\projectbundle\Frontend.Auth.Web.bundle.scp.css
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\blazor.build.boot-extension.json
@@ -1033,6 +1032,6 @@ D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\Frontend.Auth.Web.
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\refint\Frontend.Auth.Web.dll
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\Frontend.Auth.Web.pdb
 D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\ref\Frontend.Auth.Web.dll
-D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\6y3a9gn2dr-0gwx3u8w2h.gz
-D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\na13mh7psl-q0fqgv9p0h.gz
-D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\dtkf5s5r1e-834kus9d1q.gz
+D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\6y3a9gn2dr-wkg4ks3d7j.gz
+D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\na13mh7psl-i2szasmf1m.gz
+D:\Works\C#\MessengerY\src\Frontend.Auth.Web\obj\Debug\net8.0\compressed\dtkf5s5r1e-895dn6xu6b.gz

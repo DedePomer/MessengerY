@@ -28,16 +28,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Works/C\#/MessengerY/src/Frontend.Auth.Web/_Imports.razor]
